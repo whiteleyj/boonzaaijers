@@ -1,9 +1,10 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #169fe6;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
+  --darkGrey: #169fe6;
   --danger: #ff3d3d;
   --font-primary: 'Open Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
@@ -231,4 +232,22 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, th, td {
+  border-bottom: 1px solid var(--primary);
+  text-align: center;
+}
+thead {
+  background-color: var(--primary);
+  color: var(--lightGrey)
+}
+tbody>tr:nth-child(even) {
+  background-color: var(--midGrey);
+}
+tbody>tr:hover {
+  background-color: var(--midGrey);
 }

@@ -1,30 +1,18 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: Boonzaaijer Bakery
+#featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+featuredImage: './images/pies2.jpg'
+subtitle: ' Hours: Tuesday-Friday 8am-5:30pm, Saturday 8am-2pm | 126 East Cork Street, Kalamazoo, MI 49001 | Phone- 269-343-3001'
 meta:
   description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  title: The place for cake in Kalamazoo
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+Welcome to Boonzaaijer Bakery (pronounced: bone-z-i-er). When you are looking for the finest in cakes and Dutch made cookies and treats just come to the corner of Cork and Burdick street. 
 
-# Features
+Family owned and operated since 1961, you will be able to find excellent cakes for your wedding, birthday or any special day.
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+On weekends we feature our famous Fresh Fruit Shells and Oliebollen. From cookies to cakes, contact one of the best known names in SW Michigan.
 
-## Get started
-
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)

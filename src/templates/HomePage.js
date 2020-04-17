@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import GoogleMap from '../components/GoogleMap'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -27,6 +28,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <GoogleMap locations={page.frontmatter.locations} />
   </Layout>
 )
 
@@ -45,6 +47,11 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        locations {
+          mapLink
+          lat
+          lng
+        }
       }
     }
   }
